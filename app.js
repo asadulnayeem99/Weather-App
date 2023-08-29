@@ -19,11 +19,6 @@ button.addEventListener("click", function () {
       const tem = Number((Temp - 273.15).toFixed(2));
         const imgDiv = document.getElementById("img");
         imgDiv.src = url;
-      //   imgDiv.innerHTML = ""
-      //   const imgs = document.createElement("img");
-      //   imgs.src = url;
-      //   imgs.height = 100;
-      //   imgDiv.appendChild(imgs);
       const date = document.getElementById("date");
       setInterval(() => {
         date.innerHTML = new Date().toLocaleTimeString();

@@ -31,8 +31,6 @@ button.addEventListener("click", function () {
       document.getElementById("speed").innerHTML = data.wind.speed;
       const im = document.querySelectorAll("#ss");
       im.src = url;
+      button.click()
     });
 });
-window.onload ()=>{
-  button.click()
-}

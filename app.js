@@ -33,3 +33,6 @@ button.addEventListener("click", function () {
       im.src = url;
     });
 });
+window.onload ()=>{
+  button.click()
+}
